@@ -17,10 +17,10 @@ public class IniConfigTest extends TestCase {
     }
 
     public void testGetString() throws Exception {
-        /*String configName = "test/testconfig.ini";
+        String configName = "../tests/testconfig.ini";
         IniConfig config = new IniConfig(configName);
 
         String value = config.get("General", "datetimeformat", "defaultval");
-        assertEquals("value is not %c", value, "%c11");*/
+        assertEquals("value is not %c", value, "%c");
     }
 }
