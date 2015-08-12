@@ -23,5 +23,5 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.android.support:appcompat-v7:22.2.0'
     compile files('libs/ini4j-0.5.4.jar')
-    compile 'junit:junit:4.12'
+    testCompile 'junit:junit:4.12'
 }
